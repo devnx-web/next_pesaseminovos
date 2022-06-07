@@ -1,0 +1,46 @@
+.bgbanner{
+    background-image: linear-gradient(90deg,#000 15%,transparent),url("/img/bg-seminovos.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    background-position: 50%;
+}
+
+.title{
+    font-family: "Univers Bold";
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 70px;
+    color: white;
+}
+
+.card{
+    background-color: #ffc700;
+    padding: 30px;
+    border-radius: 60px 60px 0 0;
+    margin-top: 100px;
+}
+
+.text{
+    font-family: "Univers Light";
+    font-size: 25px;
+    color: #000;
+}
+
+.button{
+    font-family: "Univers Bold",sans-serif;
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 40px 5px 40px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}

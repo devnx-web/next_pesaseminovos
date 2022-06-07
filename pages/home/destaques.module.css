@@ -1,0 +1,60 @@
+.bgimg{
+    background-image: url("/img/bg-destaques.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-color: rgba(0,0,0,.9);
+    background-blend-mode: color;
+    padding-top: 55px;
+    padding-bottom: 80px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: "Univers Bold";
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.bgcard{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+}
+
+.name{
+    font-family: "Univers Bold";
+    font-size: 25px;
+}
+
+.price{
+    font-family: "Univers Bold";
+    font-size: 30px;
+}
+
+.description{
+    font-family: "Univers Light";
+    font-size: 20px;
+}
+
+.button{
+    background-color: #ffc700;
+    color: #000;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-family: "Univers Bold";
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}

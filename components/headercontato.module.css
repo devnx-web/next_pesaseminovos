@@ -1,0 +1,18 @@
+.bgcolor{
+    background-color: #161616;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon{
+    color: #ffc700;
+    font-size: 18px;
+}
+
+.info{
+    color: #9b9b9b;
+    font-family: 'Univers Light';
+    font-size: 18px;
+    font-weight: 100;
+    text-align: left;
+}

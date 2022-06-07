@@ -1,0 +1,17 @@
+.bgbanner{
+    background-image: url("/img/bg-estoque.jpg");
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background-position: 50%;
+    background-size: cover;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: color;
+}
+
+.title{
+    font-family: "Univers Bold";
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+.bgcolor{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: solid;
+    border-color: #ffc700;
+    border-width: 8px;
+}
+
+.social{
+    font-family: "Univers Bold";
+    color: white;
+    font-size: 28px;
+    margin: 12px 0 12px 0;
+}
+
+.icon{
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.icon:hover{
+    color: #ffc700;
+}
+
+.link{
+    color: white;
+    font-family: "Univers Light";
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #ffc700;
+}
+
+.text{
+    font-family: "Univers Light";
+    font-size: 18px;
+    color: white;
+}
+
+.button{
+    background-color: #ffc700;
+    font-family: "Univers Bold";
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 50px;
+    color: #000;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
+}
+
+.copyright {
+    background-color: #ffc700;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.textFooter{
+    font-family: "Univers Light";
+    font-size: 20px;
+}
