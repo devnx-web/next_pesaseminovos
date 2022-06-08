@@ -4,6 +4,8 @@ import {FaSearch} from "react-icons/fa"
 import {RiLayoutGridFill} from "react-icons/ri"
 import {BsListUl} from "react-icons/bs"
 import { Range } from "react-range"
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Maquinas () {
     return(
@@ -44,7 +46,55 @@ export default function Maquinas () {
                                 <FaSearch/> Filtro de Veículo
                             </div>
                             </Col>
-                            <Col></Col>
+                            <Col>
+                            <Row style={{marginTop: '30px'}}>
+                        <Col>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/349_1.jpg" width="620" height="465" alt="maq" />
+                            </div>
+
+                            <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Escavadeira Hidráulica 349DL</div>
+                                    <div className={css.price}>R$ 1.250.000,00</div>
+                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                            </a></Link>
+                        </Col>
+
+                        <Col>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/966L_1.jpg" width="620" height="465" alt="maq" />
+                            </div>
+
+                            <div>
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Pá Carregadeira 966L</div>
+                                    <div className={css.price}>R$ 930.000,00</div>
+                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                        </Col>
+
+                        <Col>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/H50_4.jpeg" width="620" height="465" alt="maq" />
+                            </div>
+
+                            <div>
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Empilhadeira Hyster H50XT</div>
+                                    <div className={css.price}>R$ 150.000,00</div>
+                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                        </Col>
+                    </Row>
+                            </Col>
                         </Row>
                 </Container>
             </div>
