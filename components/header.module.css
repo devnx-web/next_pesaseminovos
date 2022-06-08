@@ -9,6 +9,7 @@
     font-family: 'Univers Bold';
     font-size: 22px;
     text-transform: uppercase;
+    text-decoration: none;
     margin-right: 15px;
     transition: 0.2s;
 }
