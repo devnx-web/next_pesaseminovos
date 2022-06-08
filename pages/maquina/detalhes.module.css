@@ -1,0 +1,93 @@
+.imgmaquina{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.bgform{
+    padding: 20px;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+}
+
+.nome{
+    font-family: "Univers Light",serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.valor{
+    font-family: "Univers Bold",serif;
+    font-size: 30px;
+    color: #000;
+    margin-top: -7px;
+}
+
+.button{
+    transition: .3s;
+    width: 100%;
+    font-family: "Univers Bold";
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: #ffc700;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+}
+
+.label{
+    font-family: "Univers Light";
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.input{
+    font-family: "Univers Light";
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.bgdetails{
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 20%);
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.ficha{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: "Univers Bold";
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+}
+
+.info{
+    font-family: "Univers Light";
+    font-size: 20px;
+}
+
+.item{
+    font-family: "Montserrat Semibold";
+}
+
+.desc{
+    background-color: #ffc700;
+    padding: 5px 10px 5px 10px;
+    font-family: "Univers Bold";
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.text{
+    padding: 10px;
+    font-family: "Univers Regular";
+    font-size: 20px;
+}
