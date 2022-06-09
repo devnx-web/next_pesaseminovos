@@ -32,12 +32,14 @@ export default function Destaques(){
                             </div>
 
                             <div>
+                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira <br/> 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
+                                </a></Link>
                             </div>
                         </Col>
 
@@ -47,12 +49,14 @@ export default function Destaques(){
                             </div>
 
                             <div>
+                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
+                                </a></Link>
                             </div>
                         </Col>
 

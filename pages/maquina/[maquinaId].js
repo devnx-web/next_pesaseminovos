@@ -25,6 +25,7 @@ function Maquina({ data }){
                 horas={data.horas}
                 marca={data.marca}
                 description={data.description}
+                categoria={data.categoria}
             />
             <Footer/>
         </div>

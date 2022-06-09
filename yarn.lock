@@ -2048,6 +2048,11 @@
     "semver" "^7.3.5"
     "validate-npm-package-license" "^3.0.4"
 
+"nouislider@^15.6.0":
+  "integrity" "sha512-YJg+A6RQXTuFqhEwd42FeRaEGMGgDSSNnpIyVtT8XJrNl4VBEUkPI6Yj91bT3JjJIvNYi4VdppWeCV+z2gOnnw=="
+  "resolved" "https://registry.npmjs.org/nouislider/-/nouislider-15.6.0.tgz"
+  "version" "15.6.0"
+
 "npm-audit-report@^3.0.0":
   "integrity" "sha512-tWQzfbwz1sc4244Bx2BVELw0EmZlCsCF0X93RDcmmwhonCsPMoEviYsi+32R+mdRvOWXolPce9zo64n2xgPESw=="
   "resolved" "https://registry.npmjs.org/npm-audit-report/-/npm-audit-report-3.0.0.tgz"

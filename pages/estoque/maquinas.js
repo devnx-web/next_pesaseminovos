@@ -3,11 +3,12 @@ import {Container, Row, Col, Input} from "reactstrap"
 import {FaSearch} from "react-icons/fa"
 import {RiLayoutGridFill} from "react-icons/ri"
 import {BsListUl} from "react-icons/bs"
-import { Range } from "react-range"
 import Link from "next/link"
 import Image from "next/image"
+import React from "react"
 
 export default function Maquinas () {
+    
     return(
         <div>
             <div className={css.bg}>
@@ -42,9 +43,53 @@ export default function Maquinas () {
 
                         <Row>
                             <Col md={3}>
-                            <div className={css.bgtitle}>
-                                <FaSearch/> Filtro de Veículo
-                            </div>
+                                <div className={css.filtrosEsquerda}>
+                                    <div className={css.bgtitle}>
+                                         <FaSearch/> Filtro de Veículo
+                                    </div>
+
+                                    <div>
+                                        <div className={css.info}>
+                                            Ano [ 1990, 2010 ]
+                                        </div>
+
+                                        <div className={css.info}>
+                                            Faixa de preço [ 1990, 2010 ]
+                                        </div>
+
+                                        <select className={css.selectEsquerda}>
+                                         <option>Marca</option>
+                                            <option>One</option>
+                                            <option>Two</option>
+                                            <option>Three</option>
+                                         </select>
+
+                                         <select className={css.selectEsquerda}>
+                                            <option>Categoria</option>
+                                            <option>One</option>
+                                            <option>Two</option>
+                                            <option>Three</option>
+                                         </select>
+
+                                        <select className={css.selectEsquerda}>
+                                            <option>Cidade</option>
+                                            <option>One</option>
+                                            <option>Two</option>
+                                            <option>Three</option>
+                                        </select>
+
+                                    <div className={css.divButton}><button className={css.buttonBuscar}>Buscar</button></div>
+                                </div>
+                                </div>
+                                <div className={css.titleEsquerda}>
+                                    PESA Seminovos
+                                </div>
+                                <div className={css.textEsquerda}>
+                                Na PESA você encontra um amplo estoque de máquinas, plataformas, empilhadeiras, tratores 
+                                e equipamentos seminovos. Nosso mix de produto é pensado para atender os mais diversos 
+                                tipos de operação. Antes de chegar até você, nossos equipamentos passam por um processo
+                                 de revisão, testes e aprovação, garantindo qualidade e eficiência.
+                                </div>
                             </Col>
                             <Col>
                             <Row style={{marginTop: '30px'}}>
@@ -70,12 +115,14 @@ export default function Maquinas () {
                             </div>
 
                             <div>
+                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
+                                </a></Link>
                             </div>
                         </Col>
 
@@ -85,12 +132,14 @@ export default function Maquinas () {
                             </div>
 
                             <div>
+                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
+                                </a></Link>
                             </div>
                         </Col>
                     </Row>
