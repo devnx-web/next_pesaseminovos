@@ -93,54 +93,130 @@ export default function Maquinas () {
                             </Col>
                             <Col>
                             <Row style={{marginTop: '30px'}}>
-                        <Col>
+                        <Col md={4}>
+                            <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/349_1.jpg" width="620" height="465" alt="maq" />
                             </div>
 
-                            <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira Hidráulica 349DL</div>
                                     <div className={css.price}>R$ 1.250.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>Tecnologia integrada para você realizar mais em menos tempo.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
                             </a></Link>
                         </Col>
 
-                        <Col>
+                        <Col md={4}>
+                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/966L_1.jpg" width="620" height="465" alt="maq" />
                             </div>
 
                             <div>
-                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>A Pá Carregadeira 966L oferece confiabilidade e muita potência.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
-                                </a></Link>
                             </div>
+                                </a></Link>
                         </Col>
 
-                        <Col>
+                        <Col md={4}>
+                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/H50_4.jpeg" width="620" height="465" alt="maq" />
                             </div>
 
                             <div>
-                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>A combinação perfeita de potência e eficiência de combustível.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
-                                </a></Link>
                             </div>
+                                </a></Link>
+                        </Col>
+                    </Row>
+
+                    <Row style={{marginTop: '30px'}}>
+                        <Col md={4}>
+                            <Link href="/maquina/maquina-312dl"><a className={css.link}><div>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/312DL_1.jpg" width="620" height="465" alt="maq" />
+                            </div>
+
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Escavadeira 312DL</div>
+                                    <div className={css.price}>R$ 410.000,00</div>
+                                    <div className={css.description}>Projetada para fazer o serviço de forma mais rápida</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                            </a></Link>
+                        </Col>
+
+                        <Col md={4}>
+                                <Link href="/maquina/maquina-longreach"><a className={css.link}>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/long-reach_1.jpeg" width="620" height="465" alt="maq" />
+                            </div>
+
+                            <div>
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Escavadeira Long Reach 320</div>
+                                    <div className={css.price}>R$ 950.000,00</div>
+                                    <div className={css.description}>O equilíbrio entre economia e produtividade</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                                </a></Link>
+                        </Col>
+
+                        <Col md={4}>
+                                <Link href="/maquina/maquina-320gc"><a className={css.link}>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/320gc_1.jpg" width="620" height="465" alt="maq" />
+                            </div>
+
+                            <div>
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Escavadeira 320GC</div>
+                                    <div className={css.price}>R$ 800.000,00</div>
+                                    <div className={css.description}>Para quem procura economia de combustível e baixo custo por hora</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                                </a></Link>
+                        </Col>
+                    </Row>
+
+                    <Row style={{marginTop: '30px'}}>
+                        <Col md={4}>
+                            <Link href="/maquina/rolo-compactador"><a className={css.link}><div>
+                            <div className={css.img}>
+                                <Image className={css.maq} src="/img/compactador_1.jpg" width="620" height="465" alt="maq" />
+                            </div>
+
+                                <Col className={css.bgcard}>
+                                    <div className={css.name}>Rolo Compactador CB434D</div>
+                                    <div className={css.price}>R$ 210.000,00</div>
+                                    <div className={css.description}>oferece conforto e facilidade de manutenção que você merece</div>
+                                    <button className={css.button}>Ver mais</button>
+                                </Col>
+                            </div>
+                            </a></Link>
+                        </Col>
+
+                        <Col md={4}>
+                        </Col>
+
+                        <Col md={4}>
                         </Col>
                     </Row>
                             </Col>

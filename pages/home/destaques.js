@@ -66,12 +66,14 @@ export default function Destaques(){
                             </div>
 
                             <div>
+                                <Link href="/maquina/maquina-312dl"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira <br/> 3112DL</div>
                                     <div className={css.price}>R$ 410.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
+                                </a></Link>
                             </div>
                         </Col>
                     </Row>

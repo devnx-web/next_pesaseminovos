@@ -19,6 +19,6 @@
 
 @media(max-width: 600px){
     .bgcolor{
-        position: fixed;
+        display: none;
     }
 }
