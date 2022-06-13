@@ -1,5 +1,6 @@
 import css from "./banner.module.css";
 import { Container, Row, Col } from "reactstrap"
+import Link from "next/link"
 
 export default function Banner() {
     return (
@@ -11,9 +12,9 @@ export default function Banner() {
                     <div className={css.title}>
                         Bem-vindo à <br/> <span style={{color: '#ffc700'}}>PESA Seminovos</span>
                     </div>
-                    <button className={css.button}>
+                    <Link href="/estoque"><a><button className={css.button}>
                         Ver seminovos
-                    </button>
+                    </button></a></Link>
                     </Col>
                 </Row>
                 </Container>

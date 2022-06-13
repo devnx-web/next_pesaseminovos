@@ -11,11 +11,11 @@ export default function Destaques(){
                     <div className={css.title}>Destaques</div>
                     <Row style={{marginTop: '30px'}}>
                         <Col>
+                            <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/349_1.jpg" width="620" height="465" alt="maq" />
                             </div>
 
-                            <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira Hidráulica 349DL</div>
                                     <div className={css.price}>R$ 1.250.000,00</div>
@@ -27,54 +27,54 @@ export default function Destaques(){
                         </Col>
 
                         <Col>
+                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/966L_1.jpg" width="620" height="465" alt="maq" />
                             </div>
 
                             <div>
-                                <Link href="/maquina/maquina-966l"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira <br/> 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
-                                </a></Link>
                             </div>
+                                </a></Link>
                         </Col>
 
                         <Col>
+                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/H50_4.jpeg" width="620" height="465" alt="maq" />
                             </div>
 
                             <div>
-                                <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
-                                </a></Link>
                             </div>
+                                </a></Link>
                         </Col>
 
                         <Col>
+                                <Link href="/maquina/maquina-312dl"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/312DL_1.jpg" width="620" height="465" alt="maq" />
                             </div>
 
                             <div>
-                                <Link href="/maquina/maquina-312dl"><a className={css.link}>
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira <br/> 3112DL</div>
                                     <div className={css.price}>R$ 410.000,00</div>
                                     <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
-                                </a></Link>
                             </div>
+                                </a></Link>
                         </Col>
                     </Row>
                 </Container>

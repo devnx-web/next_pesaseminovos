@@ -1,5 +1,6 @@
 import css from "./seminovos.module.css"
 import {Row, Col, Container} from "reactstrap"
+import Link from "next/link"
 
 export default function Seminovos() {
     return (
@@ -16,7 +17,7 @@ export default function Seminovos() {
                         de operação. Antes de chegar até você, nossos equipamnetos passam por um processo de revisão, 
                         testes e aprovação, garantindo qualidade e eficiência
                         </div>
-                        <button className={css.button}>Ver seminovos</button>
+                        <Link href="/estoque"><a><button className={css.button}>Ver seminovos</button></a></Link>
                     </div>
                     </Col>
                 </Container>

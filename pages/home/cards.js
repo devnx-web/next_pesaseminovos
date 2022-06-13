@@ -1,5 +1,6 @@
 import css from "./cards.module.css"
 import { Container, Row, Col } from "reactstrap"
+import Link from "next/link"
 
 export default function Cards() {
     return (
@@ -15,9 +16,9 @@ export default function Cards() {
                             Aqui você encontra equipamentos seminovos com qualidade e segurança, 
                             revisados e prontos para o trabalho!
                             </div>
-                            <button className={css.button}>
+                            <Link href="/estoque"><a><button className={css.button}>
                                 Ver equipamentos
-                            </button>
+                            </button></a></Link>
                         </Col>
 
                         <Col className={css.card2}>
@@ -27,9 +28,9 @@ export default function Cards() {
                             <div className={css.text2}>
                             Traga seu equipamento para a PESA Seminovos e venda com segurança e agilidade!
                             </div>
-                            <button className={css.button}>
+                            <Link href="/estoque"><a><button className={css.button}>
                                 Ver equipamentos
-                            </button>
+                            </button></a></Link>
                         </Col>
                     </Row>
                 </Container>

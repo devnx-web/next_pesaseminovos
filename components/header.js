@@ -59,7 +59,7 @@ export default function Header(){
                 </ul>
                 
                 <div className={css.alignlogo}>
-                <Image className={css.image} src="/img/logo-pesaseminovos.png" alt="logo" width={120} height={59} />
+                <Link href="/"><a><Image className={css.image} src="/img/logo-pesaseminovos.png" alt="logo" width={120} height={59} /></a></Link>
                 </div>
             </div>
             </Col>
