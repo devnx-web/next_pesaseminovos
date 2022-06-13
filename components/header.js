@@ -17,7 +17,7 @@ export default function Header(){
 
                     <Col style={{alignSelf: 'center', textAlign: 'right'}}>
                     <navbar>
-                        <Link href="/"><a className={css.link}><span className={css.link}>início</span></a></Link>
+                        <Link href="/"><a className={css.link}><span className={css.link}>inícioa</span></a></Link>
                         <Link href="/estoque"><a className={css.link}><span className={css.link}>estoque</span></a></Link>
                         <span className={css.link}>sore nós</span>
                         <button className={css.button}>Contato</button>
