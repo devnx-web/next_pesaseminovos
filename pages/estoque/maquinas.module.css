@@ -167,3 +167,13 @@
     margin-top: 20px;
     text-align: justify;
 }
+
+@media (max-width: 600px){
+    .filtro{
+        margin-bottom: 20px;
+    }
+
+    .exibicao{
+        text-align: left !important;
+    }
+}

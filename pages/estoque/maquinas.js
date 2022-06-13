@@ -21,7 +21,7 @@ export default function Maquinas () {
                         <Col md={9}>
                             <div className={css.filtro2}>
                                 <Row>
-                                    <Col>
+                                    <Col md={6}>
                                     <div className={css.text}>
                                         Classificar por: 
                                         <select className={css.select}>
@@ -33,7 +33,7 @@ export default function Maquinas () {
                                     </div>
                                     </Col>
 
-                                    <Col style={{textAlign: 'right'}}>
+                                    <Col md={6} className={css.exibicao} style={{textAlign: 'right'}}>
                                     <div className={css.text}>Modo de exibição: <RiLayoutGridFill className={css.icon1}/><BsListUl className={css.icon2}/></div>
                                     </Col>
                                 </Row>

@@ -10,7 +10,7 @@ export default function Header(){
         <div>
             <div className={css.bgcolor}>
                 <Container>
-                <Row>
+                <Row className={css.headerDesk}>
                     <Col>
                     <Link href="/"><a><Image src="/img/logo-pesaseminovos.png" alt="logo" width="120" height="59"/></a></Link>
                     </Col>
@@ -24,6 +24,50 @@ export default function Header(){
                     </navbar>
                     </Col>
                 </Row>
+                <nav className={css.navigation}>
+            <Row>
+                <Col>
+            <div className={css["menuToggle"] + " " + css["div"]}>
+                <input className={css.input} name="toggle" type="checkbox" />
+                <label className={css.label} htmlFor="toggle">
+                    <span className={css.span}>menu</span>
+                    <div className={css.div}></div>
+                    <div className={css.div}></div>
+                    <div className={css.div}></div>
+                </label>
+                <ul className={css["menu"] + " " + css["ul"]}>
+                    <li className={css.li}>
+                        <Link className={css.a} href="/">
+                            <a className={css.link}>inicio</a>
+                        </Link>
+                    </li>
+                    <li className={css.li}>
+                        <Link className={css.a} href="/estoque">
+                            <a className={css.link}>Estoque</a>
+                        </Link>
+                    </li>
+
+                    <li className={css.li}>
+                        <Link className={css.a} href="#">
+                            <a className={css.link}>Sobre nós</a>
+                        </Link>
+                    </li>
+
+                    <button className={css.button}>
+                        Contato
+                    </button>
+                </ul>
+                
+                <div className={css.alignlogo}>
+                <Image className={css.image} src="/img/logo-pesaseminovos.png" alt="logo" width={120} height={59} />
+                </div>
+            </div>
+            </Col>
+            <Col>
+            {/* <Image src={}/> */}
+            </Col>
+            </Row>
+        </nav>
                 </Container>
             </div>
         </div>

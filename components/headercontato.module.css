@@ -16,3 +16,9 @@
     font-weight: 100;
     text-align: left;
 }
+
+@media(max-width: 600px){
+    .bgcolor{
+        position: fixed;
+    }
+}

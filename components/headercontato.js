@@ -10,7 +10,7 @@ export default function Headercontato(){
             <div className={css.bgcolor}>
                 <Container>
                     <Row>
-                        <Col md={2} className={css.info}>
+                        <Col md={2} sm={3} className={css.info}>
                         <BsFillTelephoneFill className={css.icon}/> 0800 940 7372
                         </Col>
 

@@ -64,3 +64,13 @@
     font-family: "Univers Light";
     font-size: 20px;
 }
+
+@media(max-width: 600px){
+    .social{
+        margin-top: 20px;
+    }
+
+    .button{
+        margin-top: 20px;
+    }
+}

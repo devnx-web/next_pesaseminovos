@@ -11,22 +11,22 @@ export default function Footer(){
             <div className={css.bgcolor}>
                 <Container>
                 <Row>
-                    <Col>
+                    <Col md={3}>
                     <Image src="/img/logo-pesaseminovos.png" width="150" height="74" alt="logo-footer" />
                     <div className={css.social}>Redes Sociais</div>
                     <Link href="https://www.instagram.com/pesaseminovosoficial/"><a target="_blank"><FaInstagram className={css.icon}/></a></Link>
                     <Link href="https://www.facebook.com/pesaseminovos"><a target="_blank"><BsFacebook className={css.icon}/></a></Link>
                     </Col>
 
-                    <Col>
+                    <Col md={3}>
                     <Link href="/"><a className={css.link}><div>Início</div></a></Link>
-                    <Link href="/"><a className={css.link}><div>Estoque</div></a></Link>
+                    <Link href="/estoque"><a className={css.link}><div>Estoque</div></a></Link>
                     <Link href="/"><a className={css.link}><div>Quem Somos</div></a></Link>
                     </Col>
 
                     <Col></Col>
 
-                    <Col>
+                    <Col md={3}>
                     <div style={{margin: '0'}} className={css.social}>Horário de atendimento</div>
                     <div className={css.text}>Seg à Sex - 08:00 às 18:00</div>
                     <div className={css.text}>Sáb e Dom - Fechado</div>
