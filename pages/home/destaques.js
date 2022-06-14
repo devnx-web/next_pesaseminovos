@@ -13,7 +13,7 @@ export default function Destaques(){
                         <Col>
                             <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                             <div className={css.img}>
-                                <Image className={css.maq} src="/img/349_1.jpg" width="620" height="465" alt="maq" />
+                                <Image className={css.maq} src="/img/349_1.JPG" width="620" height="465" alt="maq" />
                             </div>
 
                                 <Col className={css.bgcard}>
