@@ -19,7 +19,7 @@ export default function Destaques(){
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira Hidráulica 349DL</div>
                                     <div className={css.price}>R$ 1.250.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>Tecnologia integrada para você realizar mais em menos tempo.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -36,7 +36,7 @@ export default function Destaques(){
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira <br/> 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>A Pá Carregadeira 966L oferece confiabilidade e muita potência.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -53,7 +53,7 @@ export default function Destaques(){
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>Combinação perfeita de potência e eficiência de combustível.</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -70,7 +70,7 @@ export default function Destaques(){
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira <br/> 3112DL</div>
                                     <div className={css.price}>R$ 410.000,00</div>
-                                    <div className={css.description}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                    <div className={css.description}>Projetada para fazer o serviço de forma mais rápida</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
