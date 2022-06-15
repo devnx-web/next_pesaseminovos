@@ -19,7 +19,7 @@ export default function Header(){
                     <navbar>
                         <Link href="/"><a className={css.link}><span className={css.link}>início</span></a></Link>
                         <Link href="/estoque"><a className={css.link}><span className={css.link}>estoque</span></a></Link>
-                        <span className={css.link}>sore nós</span>
+                        <Link href="#sobre"><a className={css.link}><span className={css.link}>sobre nós</span></a></Link>
                         <button className={css.button}>Contato</button>
                     </navbar>
                     </Col>
@@ -48,7 +48,7 @@ export default function Header(){
                     </li>
 
                     <li className={css.li}>
-                        <Link className={css.a} href="#">
+                        <Link className={css.a} href="#sobre">
                             <a className={css.link}>Sobre nós</a>
                         </Link>
                     </li>

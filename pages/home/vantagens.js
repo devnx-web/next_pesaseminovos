@@ -7,7 +7,7 @@ export default function Vantagens(){
         <div>
             <div className={css.bg}>
                 <Container>
-                    <div className={css.title}>Por que escolher a <br/> PESA Seminovos?</div>
+                    <div id="sobre" className={css.title}>Por que escolher a <br/> PESA Seminovos?</div>
 
                     <Row>
                         <Col className={css.card}>

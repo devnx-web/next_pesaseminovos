@@ -206,7 +206,7 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Rolo Compactador CB434D</div>
                                     <div className={css.price}>R$ 210.000,00</div>
-                                    <div className={css.description}>oferece conforto e facilidade de manutenção que você merece</div>
+                                    <div className={css.description}>Oferece conforto e facilidade de manutenção que você merece</div>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
