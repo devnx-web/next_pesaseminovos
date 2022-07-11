@@ -5,17 +5,28 @@ import {RiLayoutGridFill} from "react-icons/ri"
 import {BsListUl} from "react-icons/bs"
 import Link from "next/link"
 import Image from "next/image"
-import React from "react"
+import React, { useState } from "react"
+import Slider from '@mui/material/Slider'
+
+function valuetext(value) {
+    return `${value}°C`;
+  }
 
 export default function Maquinas () {
-    
+    const [value, setValue] = React.useState([2014, 2019]);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
+
     return(
         <div>
             <div className={css.bg}>
                 <Container>
                     <Row>
                         <Col md={3}>
-                            <Input placeholder="Buscar..." className={css.filtro}/>
+                            <Input
+                            placeholder="Buscar..." className={css.filtro}/>
                         </Col>
 
                         <Col md={9}>
@@ -49,34 +60,45 @@ export default function Maquinas () {
                                     </div>
 
                                     <div>
-                                        <div className={css.info}>
+                                    <div className={css.info}>
                                             Ano [ 1990, 2010 ]
+                                            <Slider
+                                            getAriaLabel={() => 'Temperature range'}
+                                            value={value}
+                                            onChange={handleChange}
+                                            valueLabelDisplay="auto"
+                                            getAriaValueText={valuetext}
+                                            min={2012}
+                                            max={2021}
+                                            color="primary"
+                                            />
                                         </div>
 
                                         <div className={css.info}>
-                                            Faixa de preço [ 1990, 2010 ]
+                                           
+                                        </div>
+
+                                        <div className={css.info}>
+                                            Preço
+                                        </div>
+
+                                        <div className={css.info}>
                                         </div>
 
                                         <select className={css.selectEsquerda}>
                                          <option>Marca</option>
-                                            <option>One</option>
-                                            <option>Two</option>
+                                            <option>Caterpillar</option>
+                                            <option>Hyster</option>
                                             <option>Three</option>
                                          </select>
 
                                          <select className={css.selectEsquerda}>
                                             <option>Categoria</option>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
+                                            <option>Escavadeira</option>
+                                            <option>Empilhadeira</option>
+                                            <option>Carregadeira</option>
+                                            <option>Rolo Compressor</option>
                                          </select>
-
-                                        <select className={css.selectEsquerda}>
-                                            <option>Cidade</option>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
-                                        </select>
 
                                     <div className={css.divButton}><button className={css.buttonBuscar}>Buscar</button></div>
                                 </div>
