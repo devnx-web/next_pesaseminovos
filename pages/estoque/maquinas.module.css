@@ -26,7 +26,8 @@
 .text{
     color: white;
     font-family: "Univers Light";
-    font-size: 20px
+    font-size: 20px;
+    display: flex;
 }
 
 .select{

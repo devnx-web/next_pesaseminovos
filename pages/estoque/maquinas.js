@@ -8,15 +8,22 @@ import Image from "next/image"
 import React, { useState } from "react"
 import Slider from '@mui/material/Slider'
 
+
 function valuetext(value) {
-    return `${value}°C`;
+    return `${value}`;
   }
 
 export default function Maquinas () {
-    const [value, setValue] = React.useState([2014, 2019]);
+    const [value, setValue] = React.useState([2011, 2018]);
+
+    const [value1, setValue1] = React.useState([410000, 800000]);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+  };
+
+  const handleChange1 = (event, newValue) => {
+    setValue1(newValue);
   };
 
     return(
@@ -37,15 +44,19 @@ export default function Maquinas () {
                                         Classificar por: 
                                         <select className={css.select}>
                                             <option>Relevância</option>
-                                            <option>One</option>
-                                            <option>Two</option>
-                                            <option>Three</option>
+                                            <option>Mais recentes</option>
+                                            <option>Menor preço</option>
+                                            <option>Maior preço</option>
                                         </select>
                                     </div>
                                     </Col>
 
                                     <Col md={6} className={css.exibicao} style={{textAlign: 'right'}}>
-                                    <div className={css.text}>Modo de exibição: <RiLayoutGridFill className={css.icon1}/><BsListUl className={css.icon2}/></div>
+                                    <Row><div className={css.text}>Modo de exibição: 
+                                        <div v-if="visualizacao === 1"><span onClick="grade()" className={css.ativo}><RiLayoutGridFill className={css.icon1}/></span></div> 
+                                        <div v-if="visualizacao === 2"><span onClick="lista()"><BsListUl className={css.icon2}/></span></div>
+                                    </div>
+                                    </Row>
                                     </Col>
                                 </Row>
                             </div>
@@ -61,25 +72,29 @@ export default function Maquinas () {
 
                                     <div>
                                     <div className={css.info}>
-                                            Ano [ 1990, 2010 ]
+                                            Ano [ 2009, 2020 ]
                                             <Slider
-                                            getAriaLabel={() => 'Temperature range'}
                                             value={value}
                                             onChange={handleChange}
                                             valueLabelDisplay="auto"
                                             getAriaValueText={valuetext}
-                                            min={2012}
-                                            max={2021}
+                                            min={2009}
+                                            max={2020}
                                             color="primary"
                                             />
                                         </div>
 
                                         <div className={css.info}>
-                                           
-                                        </div>
-
-                                        <div className={css.info}>
                                             Preço
+                                            <Slider
+                                            value={value1}
+                                            onChange={handleChange1}
+                                            valueLabelDisplay="auto"
+                                            getAriaValueText={valuetext}
+                                            min={150000}
+                                            max={1250000}
+                                            color="primary"
+                                            />
                                         </div>
 
                                         <div className={css.info}>
@@ -89,7 +104,6 @@ export default function Maquinas () {
                                          <option>Marca</option>
                                             <option>Caterpillar</option>
                                             <option>Hyster</option>
-                                            <option>Three</option>
                                          </select>
 
                                          <select className={css.selectEsquerda}>
