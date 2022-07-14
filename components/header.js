@@ -67,7 +67,7 @@ export default function Header(){
             {/* <Image src={}/> */}
             </Col>
             </Row>
-        </nav>
+                 </nav>
                 </Container>
             </div>
         </div>
