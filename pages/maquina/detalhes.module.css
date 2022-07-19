@@ -70,12 +70,14 @@
 }
 
 .info{
-    font-family: "Univers Light";
+    font-family: "Univers Bold";
     font-size: 20px;
 }
 
 .item{
-    font-family: "Montserrat Semibold";
+    font-family: "Univers Light";
+    font-size: 20px;
+
 }
 
 .desc{

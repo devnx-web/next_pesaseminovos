@@ -20,7 +20,7 @@ export default function Header(){
                         <Link href="/"><a className={css.link}><span className={css.link}>início</span></a></Link>
                         <Link href="/estoque"><a className={css.link}><span className={css.link}>estoque</span></a></Link>
                         <Link href="#sobre"><a className={css.link}><span className={css.link}>sobre nós</span></a></Link>
-                        <button className={css.button}>Contato</button>
+                        <Link href="tel:4121032211"><a target="_blank"><button className={css.button}>Contato</button></a></Link>
                     </navbar>
                     </Col>
                 </Row>

@@ -67,7 +67,7 @@ export default function Maquinas () {
                             <Col md={3}>
                                 <div className={css.filtrosEsquerda}>
                                     <div className={css.bgtitle}>
-                                         <FaSearch/> Filtro de Veículo
+                                         <FaSearch/> Filtro de Equipamento
                                     </div>
 
                                     <div>

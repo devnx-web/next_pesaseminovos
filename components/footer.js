@@ -3,6 +3,8 @@ import {Container, Row, Col} from "reactstrap"
 import Image from "next/image"
 import {FaInstagram} from "react-icons/fa"
 import {BsFacebook} from "react-icons/bs"
+import {BsLinkedin} from "react-icons/bs"
+import {BsYoutube} from "react-icons/bs"
 import Link from "next/link"
 
 export default function Footer(){
@@ -16,6 +18,8 @@ export default function Footer(){
                     <div className={css.social}>Redes Sociais</div>
                     <Link href="https://www.instagram.com/pesaseminovosoficial/"><a target="_blank"><FaInstagram className={css.icon}/></a></Link>
                     <Link href="https://www.facebook.com/pesaseminovos"><a target="_blank"><BsFacebook className={css.icon}/></a></Link>
+                    <Link href="https://www.linkedin.com/company/pesa-seminovos/"><a target="_blank"><BsLinkedin className={css.icon}/></a></Link>
+                    <Link href="https://www.youtube.com/channel/UCa5V-wnh5VYTqqJC2gV1fGQ"><a target="_blank"><BsYoutube className={css.icon}/></a></Link>
                     </Col>
 
                     <Col md={3}>
@@ -30,7 +34,7 @@ export default function Footer(){
                     <div style={{margin: '0'}} className={css.social}>Horário de atendimento</div>
                     <div className={css.text}>Seg à Sex - 08:00 às 18:00</div>
                     <div className={css.text}>Sáb e Dom - Fechado</div>
-                    <button className={css.button}>Contato</button>
+                    <Link href="tel:4121032211"><a target="_blank"><button className={css.button}>Contato</button></a></Link>
                     </Col>
                 </Row>
                 </Container>

@@ -19,19 +19,19 @@ export default function Vantagens(){
                         <Col className={css.card}>
                         <div className={css.number}>2</div>
                         <div className={css.titleCard}>Qualidade e Segurança</div>
-                        <div className={css.text}>Equipamentos seminovos com qualidade e segurança, protnos para o trabalho!</div>
+                        <div className={css.text}>Equipamentos seminovos com qualidade e segurança, prontos para o trabalho.</div>
                         </Col>
 
                         <Col className={css.card}>
                         <div className={css.number}>3</div>
                         <div className={css.titleCard}>Credibilidade e Tradição</div>
-                        <div className={css.text}>A PESA é um distribuidor Caterpillar para o Sul do Brasil, há 70 anos no mercado!</div>
+                        <div className={css.text}>A PESA é distribuidor Caterpillar no Sul do Brasil, há 75 anos.</div>
                         </Col>
 
                         <Col className={css.card}>
                         <div className={css.number}>4</div>
                         <div className={css.titleCard}>Financiamento Facilitado</div>
-                        <div className={css.text}>A PESA oferece soluções que abrangem a comercialização de peças e manutenção de produtos.</div>
+                        <div className={css.text}>A PESA oferece soluções de financiamento via Banco CAT e PESA CARD, para ajudar você a conquistar a sua CAT.</div>
                         </Col>
                     </Row>
                 </Container>

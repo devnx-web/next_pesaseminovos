@@ -19,16 +19,16 @@ export default function Detalhes( { imgPrincipal, nome, valor, ano, horas, marca
                         <div className={css.valor}>{valor}</div>
                         <div>
                             <label className={css.label}>Nome completo</label>
-                            <Input className={css.input} placeholder="Seu nome..."/>
+                            <Input className={css.input} placeholder="Digite seu nome..."/>
 
-                            <label className={css.label}>Nome completo</label>
-                            <Input className={css.input} placeholder="Seu nome..."/>
+                            <label className={css.label}>E-mail</label>
+                            <Input className={css.input} placeholder="Digite seu e-mail..."/>
 
-                            <label className={css.label}>Nome completo</label>
-                            <Input className={css.input} placeholder="Seu nome..."/>
+                            <label className={css.label}>Telefone</label>
+                            <Input className={css.input} placeholder="Digite seu telefone..."/>
 
-                            <label className={css.label}>Nome completo</label>
-                            <Input className={css.input} placeholder="Seu nome..."/>
+                            <label className={css.label}>Empresa</label>
+                            <Input className={css.input} placeholder=""/>
 
                             <button className={css.button}>Enviar mensagem</button>
                         </div>
