@@ -34,7 +34,7 @@ export default function Destaques(){
 
                             <div>
                                 <Col className={css.bgcard}>
-                                    <div className={css.name}>Pá Carregadeira <br/> 966L</div>
+                                    <div className={css.name}>Pá Carregadeira 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
                                     <div className={css.description}>A Pá Carregadeira 966L oferece confiabilidade e muita potência.</div>
                                     <button className={css.button}>Ver mais</button>
