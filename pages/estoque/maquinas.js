@@ -129,7 +129,7 @@ export default function Maquinas () {
                             </Col>
                             <Col>
                             <Row style={{marginTop: '30px'}}>
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                             <Link href="/maquina/maquina-349dl"><a className={css.link}><div>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/349_1.JPG" width="620" height="465" alt="maq" />
@@ -145,7 +145,7 @@ export default function Maquinas () {
                             </a></Link>
                         </Col>
 
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                                 <Link href="/maquina/maquina-966l"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/966L_1.jpg" width="620" height="465" alt="maq" />
@@ -162,7 +162,7 @@ export default function Maquinas () {
                                 </a></Link>
                         </Col>
 
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                                 <Link href="/maquina/maquina-h50xt"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/H50_4.jpeg" width="620" height="465" alt="maq" />
@@ -181,7 +181,7 @@ export default function Maquinas () {
                     </Row>
 
                     <Row style={{marginTop: '30px'}}>
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                             <Link href="/maquina/maquina-312dl"><a className={css.link}><div>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/312DL_1.jpg" width="620" height="465" alt="maq" />
@@ -197,7 +197,7 @@ export default function Maquinas () {
                             </a></Link>
                         </Col>
 
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                                 <Link href="/maquina/maquina-longreach"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/long-reach_1.jpeg" width="620" height="465" alt="maq" />
@@ -214,7 +214,7 @@ export default function Maquinas () {
                                 </a></Link>
                         </Col>
 
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                                 <Link href="/maquina/maquina-320gc"><a className={css.link}>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/320gc_1.jpg" width="620" height="465" alt="maq" />
@@ -233,7 +233,7 @@ export default function Maquinas () {
                     </Row>
 
                     <Row style={{marginTop: '30px'}}>
-                        <Col md={4}>
+                        <Col className={css.cardMaq} md={4}>
                             <Link href="/maquina/rolo-compactador"><a className={css.link}><div>
                             <div className={css.img}>
                                 <Image className={css.maq} src="/img/compactador_1.jpg" width="620" height="465" alt="maq" />

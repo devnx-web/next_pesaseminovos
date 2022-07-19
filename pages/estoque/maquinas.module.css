@@ -160,12 +160,13 @@
     text-transform: uppercase;
     font-size: 30px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .textEsquerda{
-    font-family: "Univers Condensed";
+    font-family: "Univers Light";
     font-size:  20px;
-    margin-top: 20px;
+    margin: 20px 20px 0 10px;
     text-align: justify;
 }
 
@@ -176,5 +177,9 @@
 
     .exibicao{
         text-align: left !important;
+    }
+
+    .cardMaq{
+        margin: 10px;
     }
 }
