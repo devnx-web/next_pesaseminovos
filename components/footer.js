@@ -28,7 +28,12 @@ export default function Footer(){
                     <Link href="/"><a className={css.link}><div>Quem Somos</div></a></Link>
                     </Col>
 
-                    <Col></Col>
+                    <Col>
+                    <div style={{margin: '0'}} className={css.social}>Endereço</div>
+                    <div className={css.text}>BR-116, 11807 - Hauer</div>
+                    <div className={css.text}>Curitiba - PR</div>
+                    <div className={css.text}>81690-100</div>
+                    </Col>
 
                     <Col md={3}>
                     <div style={{margin: '0'}} className={css.social}>Horário de atendimento</div>
