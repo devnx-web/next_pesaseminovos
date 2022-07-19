@@ -73,4 +73,18 @@
     .button{
         margin-top: 20px;
     }
+
+    .mapSite{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .endereco{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .horario{
+        margin-top: 20px;
+    }
 }

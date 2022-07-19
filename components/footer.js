@@ -22,20 +22,20 @@ export default function Footer(){
                     <Link href="https://www.youtube.com/channel/UCa5V-wnh5VYTqqJC2gV1fGQ"><a target="_blank"><BsYoutube className={css.icon}/></a></Link>
                     </Col>
 
-                    <Col md={3}>
+                    <Col className={css.mapSite} md={3}>
                     <Link href="/"><a className={css.link}><div>Início</div></a></Link>
                     <Link href="/estoque"><a className={css.link}><div>Estoque</div></a></Link>
-                    <Link href="/"><a className={css.link}><div>Quem Somos</div></a></Link>
+                    <Link href="/#sobre"><a className={css.link}><div>Quem Somos</div></a></Link>
                     </Col>
 
-                    <Col>
+                    <Col className={css.endereco}>
                     <div style={{margin: '0'}} className={css.social}>Endereço</div>
                     <div className={css.text}>BR-116, 11807 - Hauer</div>
                     <div className={css.text}>Curitiba - PR</div>
                     <div className={css.text}>81690-100</div>
                     </Col>
 
-                    <Col md={3}>
+                    <Col className={css.horario} md={3}>
                     <div style={{margin: '0'}} className={css.social}>Horário de atendimento</div>
                     <div className={css.text}>Seg à Sex - 08:00 às 18:00</div>
                     <div className={css.text}>Sáb e Dom - Fechado</div>
