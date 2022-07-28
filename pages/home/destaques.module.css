@@ -80,6 +80,16 @@
     transition: 0.2s;
 }
 
+.info1{
+    font-family: "Univers Bold";
+    font-size: 18px;
+}
+
+.info2{
+    font-family: "Univers Light";
+    font-size: 20px;
+}
+
 @media(max-width: 600px){
     .img{
         margin-top: 25px;
