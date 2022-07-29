@@ -169,7 +169,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira Hidráulica 349DL</div>
                                     <div className={css.price}>R$ 1.250.000,00</div>
-                                    <div className={css.description}>Tecnologia integrada para você realizar mais em menos tempo.</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -186,7 +195,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Pá Carregadeira 966L</div>
                                     <div className={css.price}>R$ 930.000,00</div>
-                                    <div className={css.description}>A Pá Carregadeira 966L oferece confiabilidade e muita potência.</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -203,7 +221,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Empilhadeira Hyster H50XT</div>
                                     <div className={css.price}>R$ 150.000,00</div>
-                                    <div className={css.description}>A combinação perfeita de potência e eficiência de combustível.</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -221,7 +248,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira 312DL</div>
                                     <div className={css.price}>R$ 410.000,00</div>
-                                    <div className={css.description}>Projetada para fazer o serviço de forma mais rápida</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -238,7 +274,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira Long Reach 320</div>
                                     <div className={css.price}>R$ 950.000,00</div>
-                                    <div className={css.description}>O equilíbrio entre economia e produtividade</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -255,7 +300,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Escavadeira 320GC</div>
                                     <div className={css.price}>R$ 800.000,00</div>
-                                    <div className={css.description}>Para quem procura economia de combustível e baixo custo por hora</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
@@ -273,7 +327,16 @@ export default function Maquinas () {
                                 <Col className={css.bgcard}>
                                     <div className={css.name}>Rolo Compactador CB434D</div>
                                     <div className={css.price}>R$ 210.000,00</div>
-                                    <div className={css.description}>Oferece conforto e facilidade de manutenção que você merece</div>
+                                    <Row>
+                                        <Col>
+                                            <div className={css.info1}>Ano</div>
+                                            <div className={css.info2}>Horímetro</div>
+                                        </Col>
+                                        <Col>
+                                            <div className={css.info1}>2012</div>
+                                            <div className={css.info2}>5.818</div>
+                                        </Col>
+                                    </Row>
                                     <button className={css.button}>Ver mais</button>
                                 </Col>
                             </div>
