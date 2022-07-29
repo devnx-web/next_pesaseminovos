@@ -7,7 +7,22 @@ import Link from "next/link"
 import Image from "next/image"
 import React, { useState } from "react"
 import Slider from '@mui/material/Slider'
+import Select from 'react-select'
+import makeAnimated from "react-select/animated"
 
+const animatedComponents = makeAnimated();
+
+const marcas = [
+    {value: "caterpillar", label: "Caterpillar"},
+    {value: "hyster", label: "Hyster"}
+];
+
+const categoria = [
+    {value: "escavadeira", label: "Escavadeira"},
+    {value: "empilhadeira", label: "Empilhadeira"},
+    {value: "carregadeira", label: "Carregadeira"},
+    {value: "rolo compressor", label: "Rolo Compressor"}
+]
 
 function valuetext(value) {
     return `${value}`;
@@ -25,6 +40,7 @@ export default function Maquinas () {
   const handleChange1 = (event, newValue) => {
     setValue1(newValue);
   };
+  
 
     return(
         <div>
@@ -100,19 +116,34 @@ export default function Maquinas () {
                                         <div className={css.info}>
                                         </div>
 
-                                        <select className={css.selectEsquerda}>
-                                         <option>Marca</option>
-                                            <option>Caterpillar</option>
-                                            <option>Hyster</option>
+                                        {/* <select className={css.selectEsquerda}>
+                                             <option>Marca</option>
+                                             <option>Caterpillar</option>
+                                             <option>Hyster</option>
                                          </select>
 
                                          <select className={css.selectEsquerda}>
-                                            <option>Categoria</option>
-                                            <option>Escavadeira</option>
-                                            <option>Empilhadeira</option>
-                                            <option>Carregadeira</option>
-                                            <option>Rolo Compressor</option>
-                                         </select>
+                                            <option value="1">Categoria</option>
+                                            <option value="2">Escavadeira</option>
+                                            <option value="3">Empilhadeira</option>
+                                            <option value="4">Carregadeira</option>
+                                            <option value="5">Rolo Compressor</option>
+                                         </select> */}
+
+                                         <div>
+                                            <div className={css.select1}><Select 
+                                            placeholder="Marca"
+                                            closeMenuOnSelect={false}
+                                            components={animatedComponents}
+                                            className="select" isMulti options={marcas}/>
+                                            </div>
+
+                                            <div className={css.select1}><Select 
+                                            placeholder="Categoria"
+                                            closeMenuOnSelect={false}
+                                            components={animatedComponents}
+                                            className="select" isMulti options={categoria}/></div>
+                                        </div>
 
                                     <div className={css.divButton}><button className={css.buttonBuscar}>Buscar</button></div>
                                 </div>

@@ -3,7 +3,7 @@ import {Container, Row, Col, Input} from "reactstrap"
 import Link from "next/link"
 import Image from "next/image"
 
-export default function Detalhes( { imgPrincipal, nome, valor, ano, horas, marca, description, categoria } ) {
+export default function Detalhes( { imgPrincipal, nome, valor, ano, horas, marca, description, categoria, local, garantia } ) {
     return(
         <div>
             <div>
@@ -68,6 +68,21 @@ export default function Detalhes( { imgPrincipal, nome, valor, ano, horas, marca
                         <Col>
                         <div className={css.info}>Valor</div>
                         <span className={css.item}>{valor}</span>
+                        </Col>
+
+                        <Col>
+                        <div className={css.info}>Local</div>
+                        <span className={css.item}>{local}</span>
+                        </Col>
+                    </Row>
+
+                    <Row style={{padding: '10px'}}>
+                        <Col>
+                        <div className={css.info}>Garantia CCU</div>
+                        <span className={css.item}>{garantia}</span>
+                        </Col>
+
+                        <Col>
                         </Col>
 
                         <Col>

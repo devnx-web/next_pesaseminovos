@@ -2,6 +2,7 @@ import Headercontato from "../../components/headercontato.js"
 import Header from "../../components/header.js"
 import Banner from "./banner.js"
 import Detalhes from "./detalhes.js"
+import Destaques from "./destaques.js"
 import Footer from "../../components/footer.js"
 
 function Maquina({ data }){
@@ -26,7 +27,10 @@ function Maquina({ data }){
                 marca={data.marca}
                 description={data.description}
                 categoria={data.categoria}
+                local={data.local}
+                garantia={data.garantia}
             />
+            <Destaques/>
             <Footer/>
         </div>
     )

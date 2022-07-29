@@ -170,6 +170,13 @@
     text-align: justify;
 }
 
+.select1{
+    margin: 0 10px 15px 10px;
+    font-family: "Univers Light";
+    font-size: 20px;
+    color: black;
+}
+
 @media (max-width: 600px){
     .filtro{
         margin-bottom: 20px;
